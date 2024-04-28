@@ -32,7 +32,7 @@ body{
     border-radius: 1rem;
     padding: 1rem;
     border: 1px solid black;
-    box-shadow: 0.5rem 0.5rem 0rem black;
+    box-shadow: 1rem 1rem 0rem black;
     margin-bottom: 2rem;
     font-size: 16px;
     width: 370px;
@@ -57,12 +57,12 @@ header button{
 
 header p{
     margin-bottom: 1rem;
-    color: var(--grey);
 }
 
 main h2:hover{
     color: var(--yellow);
     transition: 3ms; 
+    cursor: pointer;
 }
 
 main p{
@@ -87,4 +87,12 @@ footer .avatar{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+    text-decoration: none;
 }
+
+@media (min-width:500px){
+    .container{
+        width: 370px;
+    }
+}
+
