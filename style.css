@@ -5,6 +5,7 @@
     margin: 0; 
     padding: 0;
     box-sizing: border-box; 
+    font-family: 'Figtree', sans-serif;
 }
 
 :root{
@@ -15,7 +16,6 @@
 }
 
 body{
-    font-family: 'Figtree', sans-serif;
     background-color: var(--yellow);
     display: flex;
     flex-direction: column;
