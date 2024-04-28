@@ -20,9 +20,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 The challenge is to build out this blog preview card and get it looking as close to the design as possible.
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://blog-preview-card-mu-seven.vercel.app/](https://blog-preview-card-mu-seven.vercel.app/)
 
 ## My process
 
@@ -39,6 +37,4 @@ Box shadow proprieties, change pointer on hover.
 
 
 ## Author
-
-- Website - [https://blog-preview-card-mu-seven.vercel.app/](https://blog-preview-card-mu-seven.vercel.app/)
 - Frontend Mentor - [@mircodg](https://www.frontendmentor.io/profile/mircodg)
