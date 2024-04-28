@@ -59,7 +59,11 @@ header p{
     margin-bottom: 1rem;
 }
 
-main h2:hover{
+main h1{
+    font-size: 1.5rem;
+}
+
+main h1:hover{
     color: var(--yellow);
     transition: 3ms; 
     cursor: pointer;
