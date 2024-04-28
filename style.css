@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,800&display=swap');
+/* CSS RESET */ 
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+:root{
+    --yellow: hsl(47, 88%, 63%); 
+    --white: hsl(0, 0%, 100%); 
+    --black: hsl(0, 0%, 7%);
+    --grey: hsl(0, 0%, 50%); 
+}
+
+body{
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 1px);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    box-shadow: 0.5rem 0.5rem 0rem black;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    width: 370px;
+}
+
+.container > img{
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    height: 200px;
+    width: 336px;
+}
+
+header button{
+    border: none;
+    background-color: var(--yellow); 
+    padding: 5px;
+    color: var(--black);
+    border-radius: 0.4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+header p{
+    margin-bottom: 1rem;
+    color: var(--grey);
+}
+
+main h2:hover{
+    color: var(--yellow);
+    transition: 3ms; 
+}
+
+main p{
+    margin-top: 1rem;
+    color: var(--grey);
+    margin-bottom: 1rem;
+}
+
+footer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 800;
+}
+
+footer .avatar{
+    width: 32px;
+    height: 32px;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
